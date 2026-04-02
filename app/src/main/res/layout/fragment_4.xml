@@ -1,14 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment4">
+    tools:context=".Fragment4"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_weight="12"
+        android:background="@color/maintheme"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="25dp"
+            android:paddingTop="13dp"
+            android:text="Каталог"
+
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="-50dp"
+                android:paddingRight="25dp"
+                android:src="@drawable/rostiks" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/fonoviy" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/fonoviy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/fonoviy" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/fonoviy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/fonoviy" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/fonoviy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/fonoviy" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/fonoviy" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/fonoviy" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="165dp"
+                    android:layout_height="165dp"
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/fonoviy" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
