@@ -26,6 +26,7 @@
             android:text="Умный Дом"
             android:textColor="#FFFFFF"
             android:textSize="26sp" />
+
     </LinearLayout>
 
     <ScrollView
@@ -50,10 +51,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Камеры  "
+                    android:text="Безопасность"
                     android:textAlignment="center"
                     android:textColor="@color/black"
-                    android:textSize="24sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -61,287 +62,186 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Гостиная "
+                    android:text="Все устройства"
                     android:textAlignment="center"
                     android:textColor="#8A8A8A"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Кухня   "
+                    android:text="Сценарии"
                     android:textAlignment="center"
                     android:textColor="#7A7A7A"
-                    android:textSize="24sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
 
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="18dp"
+                android:paddingRight="25dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="322dp"
+                    android:src="@drawable/fonoviy" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="242dp"
+                    android:src="@drawable/fonoviydark" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:src="@drawable/cameraa" />
 
                 <LinearLayout
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
                     <FrameLayout
-                        android:layout_width="400dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="30dp"
-                        android:paddingLeft="18dp"
-                        android:paddingRight="25dp">
+                        android:layout_width="100dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:paddingLeft="5dp">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="match_parent"
-                            android:layout_height="322dp"
-                            android:src="@drawable/fonoviy" />
-
-                        <ImageView
-                            android:id="@+id/imageView5"
-                            android:layout_width="match_parent"
-                            android:layout_height="242dp"
-                            android:src="@drawable/fonoviydark" />
-
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="0dp"
-                            android:src="@drawable/camera122" />
-
-                        <LinearLayout
+                            android:id="@+id/imageView12"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <FrameLayout
-                                android:layout_width="100dp"
-                                android:layout_height="55dp"
-                                android:layout_gravity="bottom"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:paddingLeft="5dp">
-
-                                <ImageView
-                                    android:id="@+id/imageView12"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:src="@drawable/fonoviydark" />
-
-                                <TextView
-                                    android:id="@+id/textView9"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="bottom"
-                                    android:text="01-04"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp" />
-                            </FrameLayout>
-
-                            <FrameLayout
-                                android:layout_width="100dp"
-                                android:layout_height="55dp"
-                                android:layout_gravity="bottom"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:paddingLeft="5dp">
-
-                                <ImageView
-                                    android:id="@+id/imageView12"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:src="@drawable/fonoviydark" />
-
-                                <TextView
-                                    android:id="@+id/textView9"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="bottom"
-                                    android:text="31-03"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp" />
-                            </FrameLayout>
-                        </LinearLayout>
-
-                        <FrameLayout
-                            android:layout_width="67dp"
-                            android:layout_height="67dp"
-                            android:layout_marginLeft="135dp"
-                            android:layout_marginTop="85dp">
-
-                            <ImageView
-                                android:id="@+id/imageView10"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/round" />
-
-                            <ImageView
-                                android:id="@+id/imageView11"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="15dp"
-                                android:src="@drawable/playicon" />
-                        </FrameLayout>
+                            android:src="@drawable/fonoviydark" />
 
                         <TextView
-                            android:id="@+id/textView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="57dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Коридор"
-                            android:textColor="#FFFFFF"
-                            android:textSize="24sp" />
-
-                        <TextClock
-                            android:id="@+id/textClock"
+                            android:id="@+id/textView9"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="0dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginRight="15dp"
-                            android:textAlignment="textEnd"
-                            android:textColor="#FFFFFF" />
-
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="bottom"
+                            android:text="01-04"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
                     </FrameLayout>
 
                     <FrameLayout
-                        android:layout_width="400dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="30dp"
-                        android:paddingLeft="25dp"
-                        android:paddingRight="25dp">
+                        android:layout_width="100dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:paddingLeft="5dp">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="match_parent"
-                            android:layout_height="322dp"
-                            android:src="@drawable/fonoviy" />
-
-                        <ImageView
-                            android:id="@+id/imageView5"
-                            android:layout_width="match_parent"
-                            android:layout_height="242dp"
-                            android:src="@drawable/fonoviydark" />
-
-                        <ImageView
-                            android:id="@+id/imageView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="0dp"
-                            android:src="@drawable/camera122" />
-
-                        <LinearLayout
+                            android:id="@+id/imageView12"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <FrameLayout
-                                android:layout_width="100dp"
-                                android:layout_height="55dp"
-                                android:layout_gravity="bottom"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:paddingLeft="5dp">
-
-                                <ImageView
-                                    android:id="@+id/imageView12"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:src="@drawable/fonoviydark" />
-
-                                <TextView
-                                    android:id="@+id/textView9"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="bottom"
-                                    android:text="01-04"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp" />
-                            </FrameLayout>
-
-                            <FrameLayout
-                                android:layout_width="100dp"
-                                android:layout_height="55dp"
-                                android:layout_gravity="bottom"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:paddingLeft="5dp">
-
-                                <ImageView
-                                    android:id="@+id/imageView12"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:src="@drawable/fonoviydark" />
-
-                                <TextView
-                                    android:id="@+id/textView9"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="5dp"
-                                    android:gravity="bottom"
-                                    android:text="31-03"
-                                    android:textColor="@color/white"
-                                    android:textSize="14sp" />
-                            </FrameLayout>
-                        </LinearLayout>
-
-                        <FrameLayout
-                            android:layout_width="67dp"
-                            android:layout_height="67dp"
-                            android:layout_marginLeft="135dp"
-                            android:layout_marginTop="85dp">
-
-                            <ImageView
-                                android:id="@+id/imageView10"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/round" />
-
-                            <ImageView
-                                android:id="@+id/imageView11"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="20dp"
-                                android:layout_marginTop="15dp"
-                                android:src="@drawable/playicon" />
-                        </FrameLayout>
+                            android:src="@drawable/fonoviydark" />
 
                         <TextView
-                            android:id="@+id/textView7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="57dp"
-                            android:layout_marginTop="10dp"
-                            android:text="Кухня"
-                            android:textColor="#FFFFFF"
-                            android:textSize="24sp" />
-
-                        <TextClock
-                            android:id="@+id/textClock"
+                            android:id="@+id/textView9"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="0dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_marginRight="15dp"
-                            android:textAlignment="textEnd"
-                            android:textColor="#FFFFFF" />
-
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="bottom"
+                            android:text="31-03"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
                     </FrameLayout>
-
                 </LinearLayout>
-            </HorizontalScrollView>
+
+                <FrameLayout
+                    android:layout_width="67dp"
+                    android:layout_height="67dp"
+                    android:layout_marginLeft="135dp"
+                    android:layout_marginTop="85dp">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/round" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:src="@drawable/playicon" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="47dp"
+                    android:text="Коридор"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <TextClock
+                    android:id="@+id/textClock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="12"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="35dp">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:src="@drawable/fonoviy" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="2dp"
+                        android:src="@drawable/cameraa" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="75dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Все камеры (4)"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </FrameLayout>
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>

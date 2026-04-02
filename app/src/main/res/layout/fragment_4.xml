@@ -56,18 +56,104 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/imageView3"
+                <FrameLayout
                     android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:src="@drawable/fonoviy" />
+                    android:layout_height="165dp">
 
-                <ImageView
-                    android:id="@+id/imageView4"
+                    <ImageView
+                        android:id="@+id/img456465"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/fonoviy" />
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/cameras3" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="QVC-Mir502"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="95dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Индивидуальная, 2592x1944, 105°, ночное видение 30м, микрофон."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="@drawable/knopor"
+                        android:text="Купить"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
                     android:layout_width="165dp"
                     android:layout_height="165dp"
-                    android:layout_marginLeft="25dp"
-                    android:src="@drawable/fonoviy" />
+                    android:layout_marginLeft="25dp">
+
+                    <ImageView
+                        android:id="@+id/img456465"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/fonoviy" />
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cameras2" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="Электра EL-IPC-21G"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="95dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Индивидуальная, 2592x1944, 105°, ночное видение 30м, микрофон."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="@drawable/knopor"
+                        android:text="Купить"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </FrameLayout>
+
             </LinearLayout>
 
             <LinearLayout
@@ -77,81 +163,105 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/imageView3"
+                <FrameLayout
+                    android:layout_width="165dp"
+                    android:layout_height="165dp">
+
+                    <ImageView
+                        android:id="@+id/img456465"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/fonoviy" />
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/rostechno" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="OAT RT-GM-2"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="95dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Гигабитные LAN, 2диапазонный Wi-Fi,  макс 300 Мбит/с."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="@drawable/knopor"
+                        android:text="Купить"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
                     android:layout_width="165dp"
                     android:layout_height="165dp"
-                    android:src="@drawable/fonoviy" />
+                    android:layout_marginLeft="25dp">
 
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_marginLeft="25dp"
-                    android:src="@drawable/fonoviy" />
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/img456465"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/fonoviy" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/pultik" />
 
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:src="@drawable/fonoviy" />
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:text="«Wink Wave»"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
 
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_marginLeft="25dp"
-                    android:src="@drawable/fonoviy" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="95dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:text="Управляет как ТВ-приставкой, так и телевизором."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:orientation="horizontal">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="135dp"
+                        android:background="@drawable/knopor"
+                        android:text="Купить"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+                </FrameLayout>
 
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:src="@drawable/fonoviy" />
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_marginLeft="25dp"
-                    android:src="@drawable/fonoviy" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="25dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:src="@drawable/fonoviy" />
-
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="165dp"
-                    android:layout_height="165dp"
-                    android:layout_marginLeft="25dp"
-                    android:src="@drawable/fonoviy" />
             </LinearLayout>
 
         </LinearLayout>

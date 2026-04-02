@@ -24,9 +24,9 @@ public class ChatFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        // ИСПОЛЬЗУЕМ fragment_chat.xml
+
         View view = inflater.inflate(R.layout.fragment_chat, container, false);
-        // Если у вас файл называется fragment_3.xml, то используйте R.layout.fragment_3
+
 
         chatContainer = view.findViewById(R.id.chat_container);
         messageInput = view.findViewById(R.id.message_input);

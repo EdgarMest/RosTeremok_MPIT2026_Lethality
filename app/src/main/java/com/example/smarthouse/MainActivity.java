@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btn_1 = findViewById(R.id.Homebtn1);
-        btn_2 = findViewById(R.id.btn2);
+
         btn_3 = findViewById(R.id.helperaibtn);
         btn_4 = findViewById(R.id.btn4);
         btn_5 = findViewById(R.id.profilebtn);
@@ -49,13 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Fragment2 secondfrag = new Fragment2();
-                setNewFragment(secondfrag);
-            }
-        });
+
 
         btn_3.setOnClickListener(new View.OnClickListener() {
             @Override

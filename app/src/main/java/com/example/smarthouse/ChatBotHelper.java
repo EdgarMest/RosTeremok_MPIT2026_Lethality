@@ -48,6 +48,12 @@ public class ChatBotHelper {
                 "Я умный помощник в приложении Ростеремок!",
                 "Я бот-помощник, созданный чтобы помогать тебе!"
         });
+
+        responseMap.put("уруй", new String[]{
+                "Айхал!",
+                "Айхал!",
+                "Айхал, Айхал, Айхал!"
+        });
     }
 
     public String getResponse(String userMessage) {
